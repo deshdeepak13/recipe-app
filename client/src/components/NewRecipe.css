@@ -1,0 +1,48 @@
+.form-tree label{
+    font-size: large;
+    padding: 0.5rem;
+    font-weight: 500;
+    color: white;
+
+}
+
+.form-tree input,textarea,select{
+
+    border: 1px solid black;
+    padding: 6px ;
+    margin-left: 6px;
+    border-radius: 6px;
+   
+}
+.form-tree select{
+
+    border: 1px solid black;
+    padding: 6px ;
+    padding-bottom: 8px ;
+    margin-left: 6px;
+    border-radius: 6px;
+   
+}
+.form-tree input::placeholder{ 
+    /* border: 1px solid rgb(249 115 22);
+    padding: 6px ;
+    border-radius: 6px; */
+    font-size: small;
+    /* text-align: center; */
+   
+}
+.form-tree input:focus{
+    outline: 1px solid rgb(249 115 22);
+    border: 1px solid rgb(249 115 22);
+    /* padding: 6px ;
+    border-radius: 6px; */ 
+    /* font-size: small; */
+   
+}
+
+@media (max-width:640px){
+    .form-tree input,textarea,select{
+        width: 70vw;
+    }
+
+}

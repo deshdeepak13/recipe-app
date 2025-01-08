@@ -1,0 +1,26 @@
+.animatedd{
+    animation: nav-anim 0.4s forwards;
+    opacity: 0;
+}
+
+.hambutton{
+    transition: all 0.1s ease-in;
+}
+
+
+@media (min-width:768px){
+    .animatedd{
+        opacity: 1;
+    animation: none;}
+}
+
+
+
+@keyframes nav-anim {
+    0%{transform:translateX(20px);
+    opacity: 0;}
+
+    100%{transform: translateX(0);
+    opacity: 1;}
+    
+}
